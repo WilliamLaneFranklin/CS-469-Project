@@ -1,0 +1,74 @@
+/* styles.css */
+
+body {
+    background-color: lightblue;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:;
+}
+
+.topnav a {
+    float:;
+    display:;
+    color:;
+    text-align:;
+    padding:;
+    text-decoration:;
+}
+
+div {
+    width: 300px;
+    border: 15px solid chartreuse;
+    padding: 10px;
+    margin: 10px;
+}
+  
+p {
+    color: rgb(93, 56, 179); 
+    border: 2px solid rgb(15, 93, 103);
+    padding: 30px;
+    font-family:monospace;
+    font-size:15px;
+    text-align: left;
+    background-color:tomato;
+    opacity:;
+    margin:;
+    outline-style: inset;
+    outline-color:rgb(200, 220, 15)
+}
+
+h1 {
+    color: tomato;
+    outline:
+    border:;
+    padding:;
+    font-family:monospace;
+    margin: 10px;
+    font-size:35px;
+    text-shadow: 2px 2px 5px rgb(93, 56, 179);;
+}
+
+ul{
+    color:rgb(93, 56, 179);
+    border:;
+    font-family:monospace;
+    font-size:15px;
+    text-align: left;
+    outline-style: inset;
+    outline-color:rgb(200, 220, 15);
+    background-color: tomato;
+}
+
+ol{
+    color:rgb(93, 56, 179);
+    border:;
+    font-family:monospace;
+    font-size:15px;
+    text-align: left;
+    outline-style: inset;
+    outline-color:rgb(200, 220, 15);
+    background-color: tomato;
+}
+
