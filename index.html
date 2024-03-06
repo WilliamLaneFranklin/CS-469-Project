@@ -7,15 +7,40 @@
       </head>
 
     <body>
-        <h1>My Personal Webpage</h1>
-        <p><a href="./index.html">Home</a></p>
-        <p><a href="./pages/aboutme.html">About Me</a></p>
-        <p><a href="./pages/experience.html">Experience</a></p>
-        <p><a href="./pages/education.html">Education</a></p>
-        <p><a href="./pages/projects.html">Projects</a></p>
-        <p><a href="./pages/blog.html">Blog</a></p>
+        <div class="splash">
+            <h1 class="fade-in">Welcome to My Website</h1>
+        </div>
 
-        <img src="./images/profile_photo.jpg" alt="The Profile Photo" height="425" width="320">
+        <div class="navigation">
+            <div class="toggle"><span></span></div>
+        <ul>
+            <li style="--i:0;"><a href='./index.html'>Home</a></li>
+            <li style="--i:1;"><a href='./pages/aboutme.html'>About Me</a></li>
+            <li style="--i:2;"><a href='./pages/experience.html'>Experience</a></li>
+            <li style="--i:3;"><a href='./pages/education.html'>Education</a></li>
+            <li style="--i:4;"><a href='./pages/projects.html'>Projects</a></li>
+            <li style="--i:5;"><a href='./pages/blog.html'>Blog</a></li>
+        </ul>
+        </div>
+        <script>
+            let navigation = document.querySelector('.navigation');
+            document.querySelector('.toggle').onclick = function(){
+                this.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+        </script>
+
+
+        <h1>My Personal Webpage</h1>
+        <div class="flex-container">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+          </div>
+
+        <img src="./images/profile_photo.jpg" alt="The Profile Photo" height="500" width="432">
 
         <!-- href specifies destination link -->
         <p>A favorite <a href="https://mushroomobserver.org" target="_blank" rel="noopener noreferrer">website</a> of mine...</p>
@@ -38,6 +63,6 @@
         </ol>
   
   
-  
+        <script src="scripts/main.js"></script>
     </body>
 </html>
