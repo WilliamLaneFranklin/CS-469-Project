@@ -84,7 +84,8 @@ ol{
     color: white;
     font-weight: bold;
     font-size: 1em;
-    text-align: center;
+    text-align: left;
+    flex: 0 0 18em; 
 }
 
 
