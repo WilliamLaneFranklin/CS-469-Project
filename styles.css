@@ -47,6 +47,25 @@ ol{
     background-color: tomato;
 }
 
+.parent {
+    display: flex;
+    height: 300px; /* Or whatever */
+  }
+  
+  .child {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+  }
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center safe;
+    align-items: baseline safe; 
+    gap: 10px 20px;
+}
+
 .flex-container {
     display: flex;
     border: 4px solid rgb(200, 220, 15);
@@ -60,6 +79,19 @@ ol{
     height: 100px;
     flex: 1; 
 }
+
+.flex-item {
+    background: black;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
 
 .splash {
     position: fixed;
@@ -122,6 +154,7 @@ body
     height: 20px;
     width: 250px;
     z-index: 100;
+    /*justify-content: space-around;*/
 }
 
 .toggle
